@@ -63,12 +63,16 @@ button {
   margin-right: auto;
   outline: 2px solid tomato;
 }
+
 .link-opened {
   color: var(--accent-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+}
+.nav-list {
+  display: flex;
 }
 .nav-list .link {
   color: var(--primary-title-color);
@@ -84,6 +88,7 @@ button {
 .nav-list > a {
   font-family: "raleway", sans-serif;
 }
+
 .contacts a {
   color: var(--primary-text-color);
   font-weight: 500;
@@ -135,10 +140,13 @@ button {
 .features-text {
   display: flex;
 }
+.features-text .features-title:last-child {
+  margin-right: 0px;
+}
 
 .features-title {
-  padding-right: 30px;
-  padding-bottom: 10px;
+  margin-right: 30px;
+  margin-bottom: 10px;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -147,11 +155,14 @@ button {
   color: var(--primary-title-color);
 }
 .section-text {
-  padding-right: 30px;
+  margin-right: 30px;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
+}
+.section-text :last-child {
+  margin-right: 0px;
 }
 
 /* activitis */
@@ -159,10 +170,10 @@ button {
   display: flex;
 }
 .flex .items {
-  padding-right: 30px;
+  margin-right: 30px;
 }
 .flex :last-child {
-  padding-right: 0px;
+  margin-right: 0px;
 }
 .activitis {
   padding-bottom: 50px;
@@ -179,7 +190,7 @@ button {
 }
 .team-title {
   padding-top: 94px;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
   text-align: center;
   font-weight: 700;
   font-size: 36px;
@@ -191,14 +202,14 @@ button {
   display: flex;
 }
 .team-container .items {
-  padding-right: 30px;
+  margin-right: 30px;
 }
 .team-container :last-child {
-  padding-right: 0px;
+  margin-right: 0px;
 }
 .team-member {
-  padding-top: 30px;
-  padding-bottom: 10px;
+  margin-top: 30px;
+  margin-bottom: 10px;
   text-align: center;
   font-weight: 500;
   font-size: 16px;
@@ -233,6 +244,7 @@ button {
   color: rgba(255, 255, 255, 0.6);
 }
 .footer-tel {
+  margin-bottom: 60px;
   font-style: normal;
   font-size: 14px;
   line-height: 1.7;
