@@ -88,6 +88,9 @@ button {
 .nav-list > a {
   font-family: "raleway", sans-serif;
 }
+.contacts {
+  display: flex;
+}
 
 .contacts a {
   color: var(--primary-text-color);
@@ -140,9 +143,6 @@ button {
 .features-text {
   display: flex;
 }
-.features-text .features-title:last-child {
-  margin-right: 0px;
-}
 
 .features-title {
   margin-right: 30px;
@@ -154,6 +154,10 @@ button {
   text-transform: uppercase;
   color: var(--primary-title-color);
 }
+.features-title:last-child {
+  margin-right: 0px;
+}
+
 .section-text {
   margin-right: 30px;
   font-size: 14px;
@@ -161,7 +165,7 @@ button {
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
 }
-.section-text :last-child {
+.section-text:last-child {
   margin-right: 0px;
 }
 
@@ -258,7 +262,15 @@ button {
   color: var(--accent-color);
 }
 /* PORTFOLIO */
+.button-flex {
+  display: flex;
+  justify-content: center;
+}
 .button-list {
+  border-radius: 4px;
+  padding: 6px 22px;
+  margin-right: 30px;
+  margin-bottom: 50px;
   background-color: #f5f4fa;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -272,6 +284,16 @@ button {
 .button-list:focus {
   background-color: var(--accent-color);
   color: var(--primary-white-color);
+}
+.projects-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+.project-cards {
+  margin-right: 30px;
+}
+.project-cards:nth-child(3n) {
+  margin-right: 0px;
 }
 .project-title {
   font-size: 18px;
