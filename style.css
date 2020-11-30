@@ -28,6 +28,8 @@ body {
   letter-spacing: 0.03em;
 }
 .studio-white {
+  display: inline-block;
+  margin-top: 60px;
   color: var(--primary-white-color);
   font-weight: 700;
   font-size: 26px;
@@ -61,6 +63,7 @@ button {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
+  outline: solid tomato;
 }
 .nav-list {
   display: flex;
@@ -78,6 +81,8 @@ button {
   letter-spacing: 0.02em;
 }
 .item {
+  margin-top: 32px;
+  margin-bottom: 32px;
   margin-right: 50px;
 }
 .nav-list .link {
@@ -140,8 +145,8 @@ button {
   letter-spacing: 0.06em;
   color: var(--primary-white-color);
   background-color: var(--accent-color);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  border: 0px;
 }
 .hero-button:hover {
   background-color: var(--primary-text-color);
@@ -150,14 +155,15 @@ button {
 /* features */
 .features {
   display: flex;
-  margin-top: 94px;
-  margin-bottom: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .features-block {
   margin-right: 30px;
 }
 .features-title {
+  min-width: 270px;
   margin-bottom: 10px;
   font-weight: 700;
   font-size: 14px;
@@ -165,6 +171,16 @@ button {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--primary-title-color);
+}
+.features-text {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
+.features-text:last-child {
+  margin-right: 0px;
 }
 
 /* activitis */
@@ -178,7 +194,7 @@ button {
   margin-right: 0px;
 }
 .activitis {
-  padding-bottom: 50px;
+  margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -203,6 +219,9 @@ button {
 .team-container {
   display: flex;
 }
+.items {
+  margin-bottom: 94px;
+}
 .team-container .items {
   margin-right: 30px;
 }
@@ -220,7 +239,6 @@ button {
   color: var(--primary-title-color);
 }
 .team-prof {
-  padding-bottom: 30px;
   text-align: center;
   font-size: 16px;
   line-height: 1.19;
@@ -232,6 +250,8 @@ button {
   background-color: var(--primary-background-color);
 }
 .footer-adress {
+  margin-top: 20px;
+  margin-bottom: 9px;
   font-style: normal;
   font-size: 14px;
   line-height: 1.7;
@@ -246,7 +266,7 @@ button {
   color: rgba(255, 255, 255, 0.6);
 }
 .footer-tel {
-  margin-bottom: 60px;
+  margin-top: 9px;
   font-style: normal;
   font-size: 14px;
   line-height: 1.7;
@@ -265,6 +285,7 @@ button {
   justify-content: center;
 }
 .button-list {
+  border: 0px;
   border-radius: 4px;
   padding: 6px 22px;
   margin-right: 30px;
@@ -289,6 +310,7 @@ button {
   flex-wrap: wrap;
 }
 .project-cards {
+  width: 370px;
   background: var(--primary-white-color);
   border: 1px solid #eeeeee;
   margin-right: 30px;
@@ -307,13 +329,10 @@ button {
 
 .section-text {
   margin-top: 4px;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   font-size: 14px;
   font-weight: 400;
   line-height: 1.7;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
-}
-.section-text:last-child {
-  margin-right: 0px;
 }
