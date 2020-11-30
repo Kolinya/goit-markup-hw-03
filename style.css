@@ -84,7 +84,7 @@ button {
   margin-bottom: 32px;
   margin-right: 50px;
 }
-.item :last-child {
+.item:last-child {
   margin-right: 0px;
 }
 .nav-list .link {
