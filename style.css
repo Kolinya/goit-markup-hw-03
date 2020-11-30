@@ -150,7 +150,6 @@ button {
 .hero-button:hover {
   background-color: var(--primary-text-color);
 }
-
 /* features */
 .features {
   display: flex;
