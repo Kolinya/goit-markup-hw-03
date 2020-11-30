@@ -61,7 +61,6 @@ button {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-  outline: 2px solid tomato;
 }
 .nav-list {
   display: flex;
@@ -150,15 +149,15 @@ button {
 
 /* features */
 .features {
+  display: flex;
   margin-top: 94px;
   margin-bottom: 94px;
 }
-.features-text {
-  display: flex;
-}
 
-.features-title {
+.features-block {
   margin-right: 30px;
+}
+.features-title {
   margin-bottom: 10px;
   font-weight: 700;
   font-size: 14px;
@@ -166,20 +165,6 @@ button {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--primary-title-color);
-}
-.features-title:last-child {
-  margin-right: 0px;
-}
-
-.section-text {
-  margin-right: 30px;
-  font-size: 14px;
-  line-height: 1.7;
-  letter-spacing: 0.03em;
-  color: var(--primary-text-color);
-}
-.section-text:last-child {
-  margin-right: 0px;
 }
 
 /* activitis */
@@ -304,14 +289,31 @@ button {
   flex-wrap: wrap;
 }
 .project-cards {
+  background: var(--primary-white-color);
+  border: 1px solid #eeeeee;
   margin-right: 30px;
+  margin-bottom: 30px;
 }
 .project-cards:nth-child(3n) {
   margin-right: 0px;
 }
 .project-title {
+  margin-top: 20px;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--primary-title-color);
+}
+
+.section-text {
+  margin-top: 4px;
+  margin-bottom: 30px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
+.section-text:last-child {
+  margin-right: 0px;
 }
