@@ -187,6 +187,10 @@ button {
 .flex {
   display: flex;
 }
+.cards {
+  margin-right: 30px;
+  margin-bottom: 94px;
+}
 .flex .items {
   margin-right: 30px;
 }
@@ -221,6 +225,10 @@ button {
 }
 .items {
   margin-bottom: 94px;
+  background: var(--primary-white-color);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 .team-container .items {
   margin-right: 30px;
@@ -239,6 +247,7 @@ button {
   color: var(--primary-title-color);
 }
 .team-prof {
+  padding-bottom: 30px;
   text-align: center;
   font-size: 16px;
   line-height: 1.19;
