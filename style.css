@@ -28,7 +28,6 @@ body {
 }
 .studio-white {
   display: inline-block;
-  margin-top: 60px;
   color: var(--primary-white-color);
   font-weight: 700;
   font-size: 26px;
@@ -54,6 +53,9 @@ a {
 }
 button {
   font-family: inherit;
+}
+.header {
+  border: 1px solid #ececec;
 }
 /* Navigation */
 .container {
@@ -82,6 +84,10 @@ button {
   margin-top: 32px;
   margin-bottom: 32px;
   margin-right: 50px;
+}
+
+.item:first-child {
+  margin-right: 93px;
 }
 .item:last-child {
   margin-right: 0px;
@@ -124,10 +130,11 @@ button {
 .hero {
   background-color: var(--primary-background-color);
   text-align: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 .hero-title {
   margin-top: 0px;
-  padding-top: 200px;
   margin-bottom: 30px;
   font-weight: 900;
   font-size: 44px;
@@ -139,7 +146,6 @@ button {
 .hero-button {
   display: inline-block;
   padding: 10px 32px;
-  margin-bottom: 200px;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.9;
@@ -154,9 +160,11 @@ button {
 }
 /* features */
 .features {
-  display: flex;
   padding-top: 94px;
   padding-bottom: 94px;
+}
+.features-flex {
+  display: flex;
 }
 .features-block {
   margin-right: 30px;
@@ -255,6 +263,8 @@ button {
 }
 /* footer */
 .footer {
+  padding-bottom: 60px;
+  padding-top: 60px;
   background-color: var(--primary-background-color);
 }
 .footer-adress {
@@ -330,8 +340,10 @@ button {
 .project-cards:nth-child(3n) {
   margin-right: 0px;
 }
+.project-borders {
+  padding: 20px 24px;
+}
 .project-title {
-  margin-top: 20px;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
@@ -339,7 +351,6 @@ button {
 }
 .section-text {
   margin-top: 4px;
-  margin-bottom: 20px;
   font-size: 14px;
   font-weight: 400;
   line-height: 1.7;
