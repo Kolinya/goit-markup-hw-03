@@ -311,7 +311,7 @@ button {
   border-radius: 4px;
   padding: 6px 22px;
   margin-right: 30px;
-  margin-bottom: 34px;
+  margin-bottom: 4px;
 
   background-color: #f5f4fa;
   font-family: "Roboto", sans-serif;
@@ -339,7 +339,7 @@ button {
   background: var(--primary-white-color);
   border: 1px solid #eeeeee;
   margin-right: 30px;
-  margin-bottom: 30px;
+  margin-top: 30px;
 }
 .project-cards:nth-child(3n) {
   margin-right: 0px;
