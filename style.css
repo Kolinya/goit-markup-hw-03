@@ -204,7 +204,7 @@ button {
   margin-right: 0px;
 }
 .activi {
-  margin-bottom: 94px;
+  padding-bottom: 94px;
 }
 .activitis {
   margin-bottom: 50px;
@@ -219,6 +219,7 @@ button {
 .team {
   background: var(--secondary-background);
   padding-bottom: 94px;
+  padding-top: 94px;
 }
 .team-title {
   margin-bottom: 50px;
