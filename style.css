@@ -196,13 +196,15 @@ button {
 }
 .cards {
   margin-right: 30px;
-  margin-bottom: 94px;
 }
 .flex .items {
   margin-right: 30px;
 }
 .flex :last-child {
   margin-right: 0px;
+}
+.activ {
+  margin-bottom: 94px;
 }
 .activitis {
   margin-bottom: 50px;
@@ -216,7 +218,6 @@ button {
 /* Team */
 .team {
   background: var(--secondary-background);
-  padding-top: 94px;
   padding-bottom: 94px;
 }
 .team-title {
